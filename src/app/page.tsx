@@ -2,8 +2,7 @@
 import { useState } from "react";
 import NavBar from "@/components/NavBar";
 import Hero from "@/components/sections/Hero";
-import Pillars from "@/components/sections/Pillars";
-import Highlights from "@/components/sections/Highlights";
+import AboutUs from "@/components/sections/AboutUs";
 import Gallery from "@/components/sections/Gallery";
 import Dancers from "@/components/sections/Dancers";
 import Competitions from "@/components/sections/Competitions";
@@ -11,7 +10,7 @@ import Join from "@/components/Join";
 import Footer from "@/components/sections/Footer";
 import "./globals.css";
 import { copy } from "@/lib/i18n";
-import AboutUs from "@/components/sections/AboutUs";
+
 
 
 export default function Page() {
