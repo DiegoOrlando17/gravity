@@ -30,21 +30,6 @@ export async function POST(req: Request) {
       `,
     });
 
-    // // Auto–reply al postulante
-    // await resend.emails.send({
-    //   from: "Gravity Company <noreply@gravitycompany.com>",
-    //   to: email,
-    //   subject: "✅ Tu audición fue recibida — Gravity Company",
-    //   html: `
-    //     <h2>Gracias por audicionar en Gravity Company</h2>
-    //     <p>Hola ${name},</p>
-    //     <p>Recibimos correctamente tu video: <a href="${video}" target="_blank">${video}</a>.</p>
-    //     <p>Nos pondremos en contacto contigo pronto.</p>
-    //     <br/>
-    //     <p>— Gravity Company</p>
-    //   `,
-    // });
-
     return NextResponse.json({ ok: true });
   } catch (error) {
     console.error("❌ Error enviando audición:", error);
