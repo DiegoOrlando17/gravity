@@ -7,8 +7,16 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 32px !important; /* 16px * 2 = "zoom 200%" */
 }
 
 body {
   font-family: var(--gc-font);
+}
+
+/* Mobile: volvemos a un tamaño normal para que NO se rompa */
+@media (max-width: 640px) {
+  html {
+    font-size: 16px !important;
+  }
 }
