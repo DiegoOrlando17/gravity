@@ -152,9 +152,9 @@ export default function Dancers({ t }: { t: any }) {
     },
     {
       name: "Rosario",
-      lastName: "Nossetto",
+      lastName: "Nosetto",
       role: t.dancers.role.dancer,
-      image: "/dancers/RosarioNossetto.jpeg",
+      image: "/dancers/RosarioNosetto.jpeg",
     },    
   ];
 
