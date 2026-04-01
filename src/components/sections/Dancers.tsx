@@ -19,10 +19,16 @@ export default function Dancers({ t }: { t: any }) {
       image: "/dancers/AbrilPolsak.jpeg",
     },
     {
-      name: "Camila",
-      lastName: "Leon Czapliski",
+      name: "Alma",
+      lastName: "Pombo",
       role: t.dancers.role.dancer,
-      image: "/dancers/CamilaLeonCzapliski.jpeg",
+      image: "/dancers/AlmaPombo.jpeg",
+    },
+    {
+      name: "Carmen",
+      lastName: "Moya",
+      role: t.dancers.role.dancer,
+      image: "/dancers/CarmenMoya.jpeg",
     },
     {
       name: "Carolina",
@@ -55,16 +61,16 @@ export default function Dancers({ t }: { t: any }) {
       image: "/dancers/FelicitasMoure.jpeg",
     },
     {
-      name: "Guadalupe",
-      lastName: "Barra",
-      role: t.dancers.role.dancer,
-      image: "/dancers/GuadalupeBarra.jpeg",
-    },
-    {
       name: "Guillermina",
       lastName: "Tondato",
       role: t.dancers.role.dancer,
       image: "/dancers/GuillerminaTondato.jpeg",
+    },
+    {
+      name: "Irina",
+      lastName: "Ungar",
+      role: t.dancers.role.dancer,
+      image: "/dancers/IrinaUngar.jpeg",
     },
     {
       name: "Lara",
@@ -79,16 +85,22 @@ export default function Dancers({ t }: { t: any }) {
       image: "/dancers/LauraLoayza.jpeg",
     },
     {
-      name: "Lourdes",
-      lastName: "Tombari",
+      name: "Lola",
+      lastName: "Peralta",
       role: t.dancers.role.dancer,
-      image: "/dancers/LourdesTombari.jpeg",
+      image: "/dancers/LolaPeralta.jpeg",
+    },
+    {
+      name: "Lorella",
+      lastName: "Caillara",
+      role: t.dancers.role.dancer,
+      image: "/dancers/LorellaCaillara.jpeg",
     },
     {
       name: "Lucila",
-      lastName: "Bloise",
+      lastName: "Lombardi",
       role: t.dancers.role.dancer,
-      image: "/dancers/LucilaBloise.jpeg",
+      image: "/dancers/LucilaLombardi.jpeg",
     },
     {
       name: "Luisiana",
@@ -115,28 +127,22 @@ export default function Dancers({ t }: { t: any }) {
       image: "/dancers/MalenaCastello.jpeg",
     },
     {
-      name: "Maria Victoria",
-      lastName: "Castillo",
-      role: t.dancers.role.dancer,
-      image: "/dancers/MariaVictoriaCastillo.jpeg",
-    },
-    {
       name: "Mia",
       lastName: "Cristofani",
       role: t.dancers.role.dancer,
       image: "/dancers/MiaCristofani.jpeg",
     },
     {
-      name: "Micaela",
-      lastName: "Gomez Re",
-      role: t.dancers.role.dancer,
-      image: "/dancers/MicaelaGomezRe.jpeg",
-    },
-    {
       name: "Morena",
       lastName: "Frachi",
       role: t.dancers.role.dancer,
       image: "/dancers/MorenaFrachi.jpeg",
+    },
+    {
+      name: "Nina",
+      lastName: "Sergio",
+      role: t.dancers.role.dancer,
+      image: "/dancers/NinaSergio.jpeg",
     },
     {
       name: "Olivia",
@@ -151,11 +157,23 @@ export default function Dancers({ t }: { t: any }) {
       image: "/dancers/RocioFeraud.jpeg",
     },
     {
-      name: "Rosario",
-      lastName: "Nosetto",
+      name: "Selena",
+      lastName: "Bonifacino",
       role: t.dancers.role.dancer,
-      image: "/dancers/RosarioNosetto.jpeg",
-    },    
+      image: "/dancers/SelenaBonifacino.jpeg",
+    },
+    {
+      name: "Selene",
+      lastName: "Noir",
+      role: t.dancers.role.dancer,
+      image: "/dancers/SeleneNoir.jpeg",
+    },
+    {
+      name: "Valen",
+      lastName: "Gonzalez",
+      role: t.dancers.role.dancer,
+      image: "/dancers/ValenGonzalez.jpeg",
+    }
   ];
 
   return (
