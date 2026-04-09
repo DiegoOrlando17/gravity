@@ -25,7 +25,7 @@ export default function Dancers({ t }: { t: any }) {
       image: "/dancers/AlmaPombo.jpeg",
     },
     {
-      name: "Belen",
+      name: "Belu",
       lastName: "Moras",
       role: t.dancers.role.dancer,
         image: "/dancers/BelenMoras.jpeg",
@@ -65,6 +65,12 @@ export default function Dancers({ t }: { t: any }) {
       lastName: "Moure",
       role: t.dancers.role.dancer,
       image: "/dancers/FelicitasMoure.jpeg",
+    },
+    {
+      name: "Flor",
+      lastName: "Romero",
+      role: t.dancers.role.dancer,
+      image: "/dancers/FlorRomero.jpeg",
     },
     {
       name: "Guillermina",
