@@ -169,6 +169,12 @@ export default function Dancers({ t }: { t: any }) {
       image: "/dancers/RocioFeraud.jpeg",
     },
     {
+      name: "Rosario",
+      lastName: "Calabresse",
+      role: t.dancers.role.dancer,
+      image: "/dancers/RosarioCalabresse.jpeg",
+    },
+    {
       name: "Selena",
       lastName: "Bonifacino",
       role: t.dancers.role.dancer,
@@ -181,10 +187,22 @@ export default function Dancers({ t }: { t: any }) {
       image: "/dancers/SeleneNoir.jpeg",
     },
     {
+      name: "Trinidad",
+      lastName: "De La Llosa",
+      role: t.dancers.role.dancer,
+      image: "/dancers/TrinidadDeLaLlosa.jpeg",
+    },
+    {
       name: "Valen",
       lastName: "Gonzalez",
       role: t.dancers.role.dancer,
       image: "/dancers/ValenGonzalez.jpeg",
+    },
+    {
+      name: "Victoria",
+      lastName: "Pennisi",
+      role: t.dancers.role.dancer,
+      image: "/dancers/VictoriaPennisi.jpeg",
     }
   ];
 
