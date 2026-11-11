@@ -9,6 +9,17 @@ export default function Competitions({ t }: { t: any }) {
   const competitions = [
     {
       id: 1,
+      date: "2025-10-04",
+      city: "Buenos Aires",
+      name: "WORLD OF DANCE Argentina",
+      highlights: [
+        { title: `Crew - ${t.competitions.choreography} “Swipe Right”`, score: "78 pts", mention: t.competitions.awards.featured2 },
+        { title: `Crew - ${t.competitions.choreography} “Home”`, score: "81 pts" },
+        { title: `Mega Crew - ${t.competitions.choreography} “Thule”`, score: "79 pts" },
+      ],
+    },
+    {
+      id: 2,
       date: "2025-10-17",
       city: "Buenos Aires",
       name: "TORNEO FED",
@@ -20,17 +31,17 @@ export default function Competitions({ t }: { t: any }) {
       ],
     },
     {
-      id: 2,
-      date: "2025-10-04",
+      id: 3,
+      date: "2026-10-11",
       city: "Buenos Aires",
       name: "WORLD OF DANCE Argentina",
       highlights: [
-        { title: `Crew - ${t.competitions.choreography} “Swipe Right”`, score: "78 pts", mention: t.competitions.awards.featured2 },
-        { title: `Crew - ${t.competitions.choreography} “Home”`, score: "81 pts" },
-        { title: `Mega Crew - ${t.competitions.choreography} “Thule”`, score: "79 pts" },
+        { title: `Mega Crew - ${t.competitions.choreography} “Fear”`, score: "90.67 pts", mention: `2º ${t.competitions.awards.place}` },
+        { title: `Crew - ${t.competitions.choreography} “Interrogation”`, score: "84.03 pts", mention: `5º ${t.competitions.awards.place}` },
+        { title: `Crew - ${t.competitions.choreography} “Where’s my love”`, score: "81.83 pts", mention: `10º ${t.competitions.awards.place}` },
       ],
-    },
-  ];
+    }
+  ].sort((a, b) => b.id - a.id);
 
   const [index, setIndex] = useState(0);
 

@@ -7,6 +7,9 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 export default function Gallery({ t }: { t: any }) {
 
     const videos = [
+        { id: "0-_I4ED31Mg", title: "INTERROGATION" },
+        { id: "pmKoJz2jKjo", title: "FEAR" },
+        { id: "KW6htXjzU9I", title: "WHERE’S MY LOVE" },
         { id: "T9HLfVXcLgc", title: "BERGHAIN" },
         { id: "tU49KIKuCUM", title: "HOMETOWN" },
         { id: "DbTRoGO34SI", title: "HOME" },
